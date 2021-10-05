@@ -1,0 +1,15 @@
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\CookBookDAL.deps.json
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\CookBookDAL.runtimeconfig.json
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\CookBookDAL.runtimeconfig.dev.json
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\CookBookDAL.dll
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\ref\CookBookDAL.dll
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\bin\Debug\net5.0\CookBookDAL.pdb
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.AssemblyInfoInputs.cache
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.AssemblyInfo.cs
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.dll
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\ref\CookBookDAL.dll
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.pdb
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.genruntimeconfig.cache
+C:\Users\Lea\source\repos\CookBook\CookBookDAL\obj\Debug\net5.0\CookBookDAL.csproj.AssemblyReference.cache
