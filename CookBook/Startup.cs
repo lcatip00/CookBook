@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CookBookDAL;
 using Microsoft.EntityFrameworkCore;
+using CookBookDAL.Data;
 
 namespace CookBook
 {
@@ -27,6 +28,7 @@ namespace CookBook
         {
             services.AddDbContext<CookBookContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddControllersWithViews();
         }
 
