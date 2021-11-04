@@ -39,8 +39,6 @@ namespace CookBook.Services
             var id = resRecipe.Entity.RecipeId;
 
             //create recipe steps
-            //var steps = new List<Step>();
-
             foreach (var step in recipeModel.Steps)
             {
                 var s = new Step
@@ -73,7 +71,6 @@ namespace CookBook.Services
             var newRecipeModel = await recipeModelFactory.PrepareRecipeModel(id);
             return newRecipeModel;
 
-            //throw new NotImplementedException();
         }
 
         

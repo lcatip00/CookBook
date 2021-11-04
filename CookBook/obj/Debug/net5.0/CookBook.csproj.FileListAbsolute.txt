@@ -81,3 +81,9 @@ C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\CookBookDAL.dll
 C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\CookBookDAL.pdb
 C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Lea\source\repos\CookBook\CookBook\obj\Debug\net5.0\CookBook.MvcApplicationPartsAssemblyInfo.cs
