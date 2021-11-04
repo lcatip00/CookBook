@@ -7,7 +7,7 @@ using CookBookDAL.Models;
 
 namespace CookBookDAL.Data
 {
-    interface IRecipeRepository
+    public interface IRecipeRepository
     {
         Task<Recipe> GetRecipe(int recipeId);
         Task<IEnumerable<Recipe>> GetRecipes();
