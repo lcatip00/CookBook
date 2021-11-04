@@ -37,6 +37,7 @@ namespace CookBook
             services.AddScoped<IRecipeRepository, RecipeRepository>();
             services.AddScoped<IRecipeService, RecipeService>();
             services.AddScoped<IStepRepository, StepRepository>();
+            services.AddScoped<IIngredientRepository, IngredientRepository>();
 
             //factories
             services.AddScoped<IRecipeModelFactory, RecipeModelFactory>();
