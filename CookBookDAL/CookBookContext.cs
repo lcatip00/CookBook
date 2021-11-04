@@ -13,6 +13,7 @@ namespace CookBookDAL
     {
         public CookBookContext(DbContextOptions<CookBookContext> options) : base(options)
         {
+            
         }
 
         public DbSet<Category> Categories { get; set; }

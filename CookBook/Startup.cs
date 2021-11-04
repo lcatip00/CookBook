@@ -4,12 +4,16 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CookBookDAL;
 using Microsoft.EntityFrameworkCore;
+using CookBookDAL.Data;
+using CookBook.Factories;
+using CookBook.Services;
 
 namespace CookBook
 {
@@ -27,7 +31,25 @@ namespace CookBook
         {
             services.AddDbContext<CookBookContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            //repositories
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IRecipeRepository, RecipeRepository>();
+            services.AddScoped<IRecipeService, RecipeService>();
+            services.AddScoped<IStepRepository, StepRepository>();
+            services.AddScoped<IIngredientRepository, IngredientRepository>();
+
+            //factories
+            services.AddScoped<IRecipeModelFactory, RecipeModelFactory>();
+            services.AddScoped<ICategoryModelFactory, CategoryModelFactory>();
+
             services.AddControllersWithViews();
+            services.AddControllers().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
+            services.AddControllers().ConfigureApiBehaviorOptions(options =>
+                options.SuppressInferBindingSourcesForParameters = true
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

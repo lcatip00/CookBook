@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace CookBookDAL.Models
 {
@@ -16,6 +17,7 @@ namespace CookBookDAL.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CreateDate { get; } = DateTime.Now;
 
+        
         public virtual ICollection<Recipe> Recepies { get; set; }
 
 
