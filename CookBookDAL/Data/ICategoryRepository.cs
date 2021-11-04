@@ -14,5 +14,6 @@ namespace CookBookDAL.Data
         Task<Category> GetCategory(int categoryId);
         Task<Category> UpdateCategory(Category category);
         Task DeleteCategory(int categoryId);
+        Task<Category> GetCategoryDetails(int categoryId);
     }
 }

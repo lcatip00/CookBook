@@ -52,6 +52,15 @@ namespace CookBookDAL.Data
             return result;
         }
 
+        public async Task<Category> GetCategoryDetails(int categoryId)
+        {
+            var result = await cookBookContext.Categories
+                .Include(r => r.Recepies)
+                .FirstOrDefaultAsync(r => r.CategoryId == categoryId);
+            
+            return result;
+        }
+
         public async Task<Category> UpdateCategory(Category category)
         {
             var result = await cookBookContext.Categories.FirstOrDefaultAsync(
@@ -67,6 +76,6 @@ namespace CookBookDAL.Data
             }
 
             return null;
-        }   
+        }
     }
 }
